@@ -11,13 +11,13 @@ function IncomeExpenses() {
   // calc: income
   const income = amounts
     .filter((amount) => amount > 0)
-    .reduce((acc, curr) => acc + curr)
+    .reduce((acc, curr) => acc + curr, 0)
     .toFixed(2);
 
   // calc: expense
   const expense = amounts
     .filter((amount) => amount < 0)
-    .reduce((acc, curr) => acc + curr)
+    .reduce((acc, curr) => acc + curr, 0)
     .toFixed(2);
 
   return (
