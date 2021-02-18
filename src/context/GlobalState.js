@@ -35,11 +35,21 @@ const GlobalProvider = ({ children }) => {
     }
   };
 
-  const deleteTransaction = (id) => {
-    dispatch({
-      type: 'DELETE_TRANSACTION',
-      payload: id,
-    });
+  const deleteTransaction = async (id) => {
+    try {
+      // delete data from endpoint
+      await axios.delete(`/api/v1/transactions/${id}`);
+      // dispatch the data and reducer-case
+      dispatch({
+        type: 'DELETE_TRANSACTION',
+        payload: id,
+      });
+    } catch (err) {
+      dispatch({
+        type: 'TRANSACTION_ERROR',
+        payload: err.response.data.error,
+      });
+    }
   };
 
   const addTransaction = (transaction) => {
