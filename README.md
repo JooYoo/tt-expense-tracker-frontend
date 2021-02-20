@@ -1,4 +1,6 @@
-### STEPS
+### 🎯 01. global state and app reducer
+
+### 🦶🏻 STEPS
 1. create a simple **Reducer**
 2. create **initState** with mock data
 3. create **Context**
