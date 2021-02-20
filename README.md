@@ -1,4 +1,4 @@
-## [Tutorial Notes] Expense Tracker Frontend
+## [Tutorial Notes] React Expense Tracker Frontend
 
 ### 🦵🏼 MAIN STEPS
 * 🔗 [00. basic components and style](https://github.com/JooYoo/tt-expense-tracker-frontend/tree/00_basic_components_and_style)
