@@ -1,4 +1,4 @@
-### 🎯 01. global state and app reducer
+## 01. global state and app reducer
 
 ### 🦶🏻 STEPS
 1. create a simple **Reducer**
