@@ -1,6 +1,6 @@
 ## [Tutorial Notes] React Expense Tracker Frontend
 
-### 🦵🏼 MAIN STEPS
+### 🥾 MAIN STEPS
 * 🔗 [00. basic components and style](https://github.com/JooYoo/tt-expense-tracker-frontend/tree/00_basic_components_and_style)
 * 🔗 [01. global state and app reducer](https://github.com/JooYoo/tt-expense-tracker-frontend/tree/01_global_state_app_reducer)
 * 🔗 [02. useContext: transaction list](https://github.com/JooYoo/tt-expense-tracker-frontend/tree/02_use_context_transactionlist)
