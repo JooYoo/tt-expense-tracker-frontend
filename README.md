@@ -13,7 +13,7 @@
 └── App.js
 ```
 
-### POINTS
+### 🎲 POINTS
 * create **Types**
 * save **Action**s separately
 * upgrade the context **Provider**
